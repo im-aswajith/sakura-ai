@@ -45,31 +45,7 @@
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <style>
-      .p1{animation:spin1 6s linear infinite;transform-origin:120px 80px;}
-      .p2{animation:spin1 6s linear infinite 0.5s;transform-origin:120px 80px;}
-      .p3{animation:spin1 6s linear infinite 1s;transform-origin:120px 80px;}
-      .p4{animation:spin1 6s linear infinite 1.5s;transform-origin:120px 80px;}
-      .p5{animation:spin1 6s linear infinite 2s;transform-origin:120px 80px;}
-      .p6{animation:spin1 6s linear infinite 2.5s;transform-origin:120px 80px;}
-      .p7{animation:spin1 6s linear infinite 3s;transform-origin:120px 80px;}
-      .p8{animation:spin1 6s linear infinite 3.5s;transform-origin:120px 80px;}
-      @keyframes spin1{0%,100%{opacity:.5;r:18}50%{opacity:1;r:22}}
-      .core{animation:pulse 2s ease-in-out infinite;transform-origin:120px 80px;}
-      @keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.15);}}
-      .float{animation:fl 3s ease-in-out infinite;}
-      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
-      .sparkle{animation:sp 1.5s ease-in-out infinite;}
-      .sparkle:nth-child(2){animation-delay:.3s;}
-      .sparkle:nth-child(3){animation-delay:.6s;}
-      .sparkle:nth-child(4){animation-delay:.9s;}
-      .sparkle:nth-child(5){animation-delay:1.2s;}
-      @keyframes sp{0%,100%{opacity:0;transform:scale(0)}50%{opacity:1;transform:scale(1)}}
-      .txt{animation:tc 3s ease-in-out infinite;}
-      @keyframes tc{0%,100%{fill:#ff6eb4}50%{fill:#c084fc}}
-      .bar{animation:slide 2s ease-in-out infinite;}
-      @keyframes slide{0%,100%{transform:scaleX(0.6)}50%{transform:scaleX(1)}}
-    </style>
+    
   </defs>
   <!-- Petals -->
   <ellipse class="p1" cx="120" cy="46" rx="9" ry="28" fill="#ff9de2" filter="url(#glow)"/>
