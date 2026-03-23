@@ -1,0 +1,7 @@
+torch
+git+https://github.com/huggingface/transformers.git
+accelerate
+sentencepiece
+colorama
+rich
+tiktoken
