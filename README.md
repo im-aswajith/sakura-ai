@@ -152,15 +152,6 @@ Built on **Qwen3.5-27B** distilled with **Claude 4.6 Opus reasoning**, Sakura is
       <stop offset="50%" stop-color="#c084fc"/>
       <stop offset="100%" stop-color="#ff9de2"/>
     </linearGradient>
-    <style>
-      .chip{animation:chipglow 2s ease-in-out infinite;}
-      .chip:nth-child(1){animation-delay:0s}
-      .chip:nth-child(2){animation-delay:0.3s}
-      .chip:nth-child(3){animation-delay:0.6s}
-      .chip:nth-child(4){animation-delay:0.9s}
-      .chip:nth-child(5){animation-delay:1.2s}
-      @keyframes chipglow{0%,100%{opacity:0.7}50%{opacity:1}}
-    </style>
   </defs>
   <rect class="chip" x="10"  y="15" width="130" height="50" rx="10" fill="#1a0010" stroke="#ff6eb4" stroke-width="1.5"/>
   <rect class="chip" x="155" y="15" width="130" height="50" rx="10" fill="#1a0010" stroke="#e879f9" stroke-width="1.5"/>
@@ -253,13 +244,7 @@ Memory files auto-created on first run:
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 60" width="700" height="60">
   <defs>
-    <style>
-      .req{animation:reqpulse 2.5s ease-in-out infinite;}
-      .req:nth-child(1){animation-delay:0s}
-      .req:nth-child(2){animation-delay:0.5s}
-      .req:nth-child(3){animation-delay:1s}
-      @keyframes reqpulse{0%,100%{stroke-width:1.5;opacity:0.8}50%{stroke-width:2.5;opacity:1}}
-    </style>
+    
   </defs>
   <rect class="req" x="10"  y="8" width="200" height="44" rx="8" fill="#0d001a" stroke="#ff6eb4"/>
   <rect class="req" x="250" y="8" width="200" height="44" rx="8" fill="#0d001a" stroke="#c084fc"/>
@@ -390,10 +375,7 @@ sakura-ai/
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 30" width="700" height="30">
   <defs>
-    <style>
-      .wline{animation:wl 1.5s ease-in-out infinite alternate;}
-      @keyframes wl{from{opacity:0.4}to{opacity:1}}
-    </style>
+   
   </defs>
   <rect class="wline" x="0" y="12" width="700" height="4" rx="2" fill="url(#fg2)"/>
   <defs>
@@ -533,17 +515,7 @@ This project makes use of the following open-source works:
       <stop offset="70%" stop-color="#ff9de2"/>
       <stop offset="100%" stop-color="#ff9de2" stop-opacity="0"/>
     </linearGradient>
-    <style>
-      .dots text { animation: dotdance 2s ease-in-out infinite; }
-      .dots text:nth-child(1){animation-delay:0s}
-      .dots text:nth-child(2){animation-delay:0.2s}
-      .dots text:nth-child(3){animation-delay:0.4s}
-      .dots text:nth-child(4){animation-delay:0.6s}
-      .dots text:nth-child(5){animation-delay:0.8s}
-      .dots text:nth-child(6){animation-delay:1s}
-      .dots text:nth-child(7){animation-delay:1.2s}
-      @keyframes dotdance{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-    </style>
+    
   </defs>
   <rect x="0" y="22" width="800" height="3" rx="1.5" fill="url(#sg)"/>
   <g class="dots" transform="translate(330,8)">
