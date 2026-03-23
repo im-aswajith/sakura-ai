@@ -67,13 +67,7 @@
   <text class="sparkle" x="62" y="118" font-size="10">✧</text>
   <text class="sparkle" x="100" y="22" font-size="8">⋆</text>
   <!-- Title block -->
-  <g class="float">
-    <text class="txt" x="220" y="55" font-family="Georgia,serif" font-size="38" font-weight="bold" filter="url(#softglow)">SAKURA AI</text>
-    <text x="222" y="82" font-family="Georgia,serif" font-size="16" fill="#ff9de2">Unrestricted  •  Intelligent  •  Yours</text>
-    <!-- Animated underline bar -->
-    <rect class="bar" x="222" y="92" width="320" height="3" rx="2" fill="url(#pg2)"/>
-    <text x="222" y="118" font-family="monospace" font-size="13" fill="#c084fc">[ Qwen3.5-27B × Claude 4.6 Opus Reasoning ]</text>
-  </g>
+  
   <!-- Right mini 3D cube decoration -->
   <g transform="translate(620,30)" filter="url(#glow)">
     <polygon points="60,0 100,20 100,70 60,90 20,70 20,20" fill="none" stroke="#ff6eb4" stroke-width="1.5" opacity="0.6"/>
